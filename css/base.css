@@ -1,0 +1,118 @@
+header{
+    position: fixed;
+    background-color:rgb(172, 216, 236);
+    width: 100%;
+    padding: 10px;
+    display: block;
+    z-index: 100;
+}
+
+
+.container{
+    margin: 20px auto;
+    max-width: 1170px;
+    width: 100%;
+    display: block;   
+}
+h1{
+    margin:20px;
+    font:40px bold;
+    font-family: Roboto;
+    text-align :center;
+
+}
+h3{
+    margin:20px;
+    font:30px bold;
+    font-family: Roboto;
+    text-align :center;
+
+}
+.anime-block{  
+    width: 100%;
+    display:block;
+    background-color: rgb(194, 194, 194);
+    padding: 20px;
+}
+
+.anime-block .container{
+    padding-top:100px;
+}
+.bar-anime{
+    width: 10px;
+    height: 10px;
+    background: red;
+    transition: width 2s;
+}
+.bar-anime:hover {
+    width: 300px;
+}
+  
+.type-anime[type=text] {
+width: 100px;
+transition: width .35s ease-in-out;
+}
+
+.type-anime[type=text]:focus {
+width: 250px;
+}
+.race img{
+    fill: rgb(63, 35, 58);
+    width: 60px;
+}
+.sedan{
+    position: relative;
+    animation: sedan-move linear 15s 1;
+}
+@keyframes sedan-move {
+    0%   {left: 0;}
+    25%  {left: 30%;}
+    75%  {left: 60%}
+    100% {left: 97%;}
+  }
+
+.van{
+    position: relative;
+    animation: van-move linear 13s 1;
+}
+@keyframes van-move {
+    0%   {left: 0;}
+    25%  {left: 20%;}
+    50%  {left: 45%}
+    100% {left: 97%;}
+  }
+.sport{
+    position: relative;
+    animation: sport-move linear 12s 1;
+}
+@keyframes sport-move {
+    0%   {left: 0;}
+    15%  {left: 25%;}
+    75%  {left: 75%}
+    100% {left: 97%;}
+  }
+
+.finish{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    float:right;
+    color: rgb(255, 255, 255);
+    font: 34px Roboto;
+    z-index: -1;
+    margin-top: 0;
+    float: left;
+    background-color:  rgb(105, 98, 98);
+}
+.race{
+    width:90%;
+    float:left;
+    background-color: rgb(105, 98, 98);
+    
+}
+.race li{
+    border-top: 2px dashed rgb(255, 255, 255);
+
+}
+  
+
+
