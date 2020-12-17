@@ -6,7 +6,7 @@
 
 #### Tree Structure:
 ```bash
-├── HTML_CSS_Task_6
+├── HTML_CSS_Task_7
 │   ├── css
 │   │   ├── **/*.css
 │   ├── fonts
