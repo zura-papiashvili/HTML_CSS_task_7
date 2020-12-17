@@ -38,16 +38,56 @@ h3{
 .anime-block .container{
     padding-top:100px;
 }
-.bar-anime{
-    width: 10px;
-    height: 10px;
+.html-anime{
+    margin-bottom: 2px;
+    width: 0px;
+    height: 15px;
     background: red;
-    transition: width 2s;
+    animation: html-skill ease-in-out  2s 1 forwards;
 }
-.bar-anime:hover {
-    width: 300px;
+
+.css-anime{
+    margin-bottom: 2px;
+    width: 0px;
+    height: 15px;
+    background: red;
+    animation: css-skill ease-in-out  3s 1 forwards;
 }
-  
+.python-anime{
+    margin-bottom: 2px;
+    width: 0px;
+    height: 15px;
+    background: red;
+    animation: python-skill ease-in-out  4s 1 forwards;
+}
+.tag{
+    width: 0px;
+    animation: skill-tags ease-in-out  5s 1 forwards;
+}
+
+@keyframes html-skill{
+    0%   {width: 0;}
+    100% {width: 120px;}
+}
+@keyframes css-skill{
+    0%   {width: 0;}
+    100% {width: 90px;}
+}
+@keyframes python-skill{
+    0%   {width: 0;}
+    100% {width: 180px;}
+}
+@keyframes skill-tags{
+    0%   {opacity: 0;}
+    80% {opacity: 0;}
+    100% {width: 90px;}
+}
+
+ 
+
+
+
+
 .type-anime[type=text] {
 width: 100px;
 transition: width .35s ease-in-out;
